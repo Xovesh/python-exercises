@@ -2,5 +2,6 @@ import Hanoi
 import time
 
 start_time = time.time()
-a = Hanoi.Hanoi(15)
+Hanoi.Hanoi(int(input("Introduce a number: ")))
+print("Time used")
 print("--- %s seconds ---" % (time.time() - start_time))
