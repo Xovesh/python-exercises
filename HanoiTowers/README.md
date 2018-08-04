@@ -4,7 +4,7 @@
 
 # Example
 
-Introduce a number: 3
+Put a number: 3
 
 
 Tower 1
