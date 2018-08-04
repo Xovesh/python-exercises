@@ -70,6 +70,7 @@ Tower 1
 
 Tower 2
  ■■■
+ 
 ■■■■■
 
 Tower 3
