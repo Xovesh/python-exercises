@@ -8,7 +8,7 @@ def subsets(original, subset, i):
         subsets(original, subset, i + 1)
 
 
-original = [1, 2, 3]
+original = [1, 2, 3, 4]
 subset = []
 for i in original:
     subset.append(None)
