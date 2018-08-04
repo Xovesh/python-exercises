@@ -1,10 +1,8 @@
-#Hanoi Towers using python
+# Hanoi Towers using python
 
-#Explanation
+# Explanation
 
-#Example
-
--------------------------
+# Example
 
 Introduce a number: 3
 
