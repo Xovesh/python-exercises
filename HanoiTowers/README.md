@@ -69,6 +69,7 @@ moving disk from Tower 1 to Tower 3
 Tower 1
 
 Tower 2
+
  ■■■
  
 ■■■■■
