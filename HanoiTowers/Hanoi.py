@@ -1,4 +1,4 @@
-import Tower
+from HanoiTowers import Tower
 
 
 class Hanoi:

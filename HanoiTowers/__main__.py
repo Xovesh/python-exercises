@@ -1,4 +1,4 @@
-import Hanoi
+from HanoiTowers import Hanoi
 import time
 
 start_time = time.time()

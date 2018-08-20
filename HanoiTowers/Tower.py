@@ -1,4 +1,4 @@
-import Disk
+from HanoiTowers import Disk
 
 
 class Tower:
