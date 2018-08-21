@@ -6,3 +6,4 @@ def subsets(original, subset, i):
         subsets(original, subset, i + 1)
         subset[i] = original[i]
         subsets(original, subset, i + 1)
+
