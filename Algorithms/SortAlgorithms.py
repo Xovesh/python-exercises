@@ -32,9 +32,9 @@ def mergesort(nlist):
 
     left = mergesort(left)
     right = mergesort(right)
-    return merge(left, right)
+    return mergehelp(left, right)
 
-def merge(left, right):
+def mergehelp(left, right):
     result = []
     leftindex, rightindex = 0, 0
     while leftindex < len(left) and rightindex < len(right):
