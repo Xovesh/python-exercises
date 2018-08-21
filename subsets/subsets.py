@@ -6,3 +6,10 @@ def subsets(original, subset, i):
         subsets(original, subset, i + 1)
         subset[i] = original[i]
         subsets(original, subset, i + 1)
+
+
+original = [1, 2, 3, 4]
+subset = []
+for i in original:
+    subset.append(None)
+subsets(original, subset, 0)
