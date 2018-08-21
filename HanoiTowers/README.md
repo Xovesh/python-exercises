@@ -1,6 +1,4 @@
-# Hanoi Towers using python
-
-# Explanation
+# Hanoi Towers
 
 # Example
 
