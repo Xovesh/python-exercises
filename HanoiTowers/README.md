@@ -1,10 +1,8 @@
-# Hanoi Towers using python
-
-# Explanation
+# Hanoi Towers
 
 # Example
 
-Put a number: 3
+With 3 disks
 
 
 Tower 1
