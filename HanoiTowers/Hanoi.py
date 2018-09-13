@@ -24,12 +24,10 @@ class Hanoi:
                 movetower(height - 1, withPole, toPole, fromPole)
 
         def movedisk(fp, tp):
-            abc = {"Tower 1": self.towers[0], "Tower 2": self.towers[1], "Tower 3": self.towers[2]}
-            abc[tp].adddisk(abc[fp].removefirst().getwidth())
-            print("moving disk from", fp, "to", tp)
+            tp.adddisk(fp.removefirst().getwidth())
             self.visualize()
 
-        movetower(self.ndisk, "Tower 1", "Tower 3", "Tower 2")
+        movetower(self.ndisk, self.towers[0], self.towers[2], self.towers[1])
 
     def visualize(self):
         print("Tower 1")
