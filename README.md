@@ -6,4 +6,6 @@
 
 08/21/2018 sorting and search algorithms
 
-10/25/2018 String exercises
+10/23/2018 String exercises
+
+10/25/2018 Trees
