@@ -32,6 +32,7 @@ Original tree:
     
     ![Screenshot](githubpictures/spread.png)
     
-- Prefix: Returns a boolean Truee if the tree1 is a prefix of tree2:
-
+- Prefix: Returns True if one tree is a prefix of other:
+    
+    Example of a tree that is a prefix of other:
     ![Screenshot](githubpictures/prefix.png)
