@@ -1,4 +1,4 @@
-# average performance O(n log n)
+# quicksort average performance O(n log n)
 def quicksort(nlist):
     quicksorthelper(nlist, 0, len(nlist) - 1)
     return nlist
@@ -24,7 +24,7 @@ def splitlist(nlist, first, last):
     return border
 
 
-# average performance O(n log n)
+# mergetsort average performance O(n log n)
 def mergesort(nlist):
     if len(nlist) <= 1:
         return nlist
@@ -54,7 +54,7 @@ def mergehelp(left, right):
     return result
 
 
-# merge sort linked list implementation
+# merge sort linked list implementation average performance O(n log n)
 
 class ListNode:
     def __init__(self, x):
@@ -109,7 +109,7 @@ def getmiddle(node):
     return previous
 
 
-# average performance O(n^2)
+# bubblesort average performance O(n^2)
 def bubblesort(nlist):
     for i in range(0, len(nlist) - 1):
         for j in range(0, len(nlist) - 1):
@@ -118,7 +118,7 @@ def bubblesort(nlist):
     return nlist
 
 
-# average performance O(n^2)
+# insertionsort average performance O(n^2)
 def insertionsort(nlist):
     for i in range(1, len(nlist)):
         border = i - 1
