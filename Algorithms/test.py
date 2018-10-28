@@ -43,4 +43,4 @@ def checkall(n):
     return totaltime
 
 
-print("Total time spended: " + str(checkall(10000)))
+print("Total time spended: " + str(checkall(100)))

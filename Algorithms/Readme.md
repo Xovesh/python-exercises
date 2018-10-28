@@ -1,7 +1,7 @@
 # Sorting Algorithms
 
 - QuickSort average performance O(n log n)
-- MergeSort average performance O(n log n)
+- MergeSort (array and linked list implementation) average performance O(n log n)
 - BubbleSort average performance O(n^2)
 - InsertionSort average performance O(n^2)
 
@@ -14,6 +14,7 @@
   Time for sorting (bubble sort): 18.394652605056763s
   
   Time for sorting (merge sort): 0.07799744606018066s
+  
 
 # Search Algorithms
 
