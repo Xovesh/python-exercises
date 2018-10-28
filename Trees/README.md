@@ -34,3 +34,4 @@ Original tree:
     
 - Prefix: Returns a boolean Truee if the tree1 is a prefix of tree2:
 
+    ![Screenshot](githubpictures/prefix.png)
