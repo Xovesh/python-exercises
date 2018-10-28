@@ -1,7 +1,7 @@
 def prefix(tree1, tree2):
     if tree1 is None and tree2 is None:
         return True
-    elif tree1 is None and tree2 != None:
+    elif tree1 is None and tree2 is not None:
         return True
     elif tree1 is not None and tree2 is None:
         return False

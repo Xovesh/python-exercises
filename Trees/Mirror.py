@@ -1,5 +1,4 @@
 from Trees import TreeNode
-
 def mirror(tree):
     if tree is None:
         return None
