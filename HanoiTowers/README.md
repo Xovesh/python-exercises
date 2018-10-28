@@ -1,4 +1,4 @@
-# Hanoi Towers
+# Hanoi Towers O(2^n)
 
 # Example
 
