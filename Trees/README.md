@@ -12,7 +12,7 @@ Original tree:
     
     ![Screenshot](githubpictures/depthfirst.png)
     
-- Mirror
+- Mirror returns the tree mirrored (see image for better understanding)
     From the original:
     
     ![Screenshot](githubpictures/tree.png)
@@ -21,7 +21,7 @@ Original tree:
     
     ![Screenshot](githubpictures/mirror.png)
     
-- Spread
+- Spread returns the tree with the first element spread in all the tree
      From the original:
     
     ![Screenshot](githubpictures/tree.png)
