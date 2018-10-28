@@ -1,9 +1,3 @@
-class TreeNode:
-    def __init__(self, x):
-        self.val = x
-        self.left = None # TreeNode Type
-        self.right = None # TreeNode Type
-
 class TreeSearch:
 
     @ staticmethod
@@ -50,17 +44,3 @@ class TreeSearch:
 
         return result
 
-# check the github picture to understand better this tree.
-magictree = TreeNode("A")
-magictree.left = TreeNode("B")
-magictree.right = TreeNode("C")
-magictree.left.left = TreeNode("D")
-magictree.left.right = TreeNode("E")
-magictree.left.left.left = TreeNode("H")
-magictree.left.left.right = TreeNode("I")
-magictree.left.right.right = TreeNode("J")
-magictree.right.left = TreeNode("F")
-magictree.right.right = TreeNode("G")
-
-print(TreeSearch.breadthfirstsearch(magictree))
-print(TreeSearch.depthfirstsearchpreorder(magictree))
