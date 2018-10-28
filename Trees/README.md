@@ -12,4 +12,7 @@ Original tree:
     
     ![Screenshot](githubpictures/depthfirst.png)
     
--
+- Mirror
+- Spread
+- Prefix
+
