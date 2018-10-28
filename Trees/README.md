@@ -13,6 +13,21 @@ Original tree:
     ![Screenshot](githubpictures/depthfirst.png)
     
 - Mirror
+    From the original:
+    
+    ![Screenshot](githubpictures/tree.png)
+    
+    To:
+    
+    ![Screenshot](githubpictures/mirror.png)
+    
 - Spread
-- Prefix
-
+     From the original:
+    
+    ![Screenshot](githubpictures/tree.png)
+    
+    To:
+    
+    ![Screenshot](githubpictures/spread.png)
+    
+- Prefix: Return True if the tree1 is a prefix of tree2
