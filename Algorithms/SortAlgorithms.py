@@ -95,15 +95,16 @@ def mergesorthelper(left, right):
 
 
 def getmiddle(node):
-    if node is None:
-        return None
-    current = node
-    previous = node
+    if node is None or node.next is None:
+        return node
+
+    current = node.next
+    previous = node.next
 
     while current.next is not None:
         current = current.next
         if current.next is not None:
-            previous = current
+            previous = previous.next
             current = current.next
 
     return previous
