@@ -5,12 +5,12 @@ def binarysearch(array, number):
     while start <= final:
         mid = int((start + final)/2)
         if array[mid] == number:
-            return mid
+            return True
         elif array[mid] < number:
             start = mid + 1
         elif array[mid] > number:
             final = mid - 1
-    return None
+    return False
 
 # average performance O(n)
 def linearsearch(numbersarray, numbertosearch):

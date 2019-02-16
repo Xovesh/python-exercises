@@ -1,5 +1,5 @@
 import random
-from Algorithms import SortAlgorithms
+from Algorithms import SortAlgorithms, SearchAlgorithms
 import time
 
 # creates an array with j random numbers
