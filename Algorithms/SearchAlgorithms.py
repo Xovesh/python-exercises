@@ -1,4 +1,4 @@
-# average performance O(log n)
+# average performance O(log n) of the algorithm
 def binarysearch(array, number):
     start = 0
     final = len(array)-1
@@ -12,7 +12,7 @@ def binarysearch(array, number):
             final = mid - 1
     return False
 
-# average performance O(n)
+# average performance O(n) of the algorithm
 def linearsearch(numbersarray, numbertosearch):
     for k in range(0, len(numbersarray)):
         if numbersarray[k] == numbertosearch:
